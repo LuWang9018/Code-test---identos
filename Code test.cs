@@ -28,7 +28,7 @@ namespace Rextester
                 System.Console.Write(" ");
                 System.Console.Write("|");
             }
-            System.Console.Write("\n");
+            System.Console.Write("\r\n");
         } 
         
         private void TableContant(){
@@ -48,7 +48,7 @@ namespace Rextester
                     System.Console.Write(" ");
                     System.Console.Write("|");
                 }
-                System.Console.Write("\n");
+                System.Console.Write("\r\n");
             }
         }
         
@@ -74,7 +74,7 @@ namespace Rextester
 
                     System.Console.Write("|");
                 }
-                System.Console.Write("\n");
+                System.Console.Write("\r\n");
             }
         }
             
@@ -88,17 +88,16 @@ namespace Rextester
         public static void Main(string[] args)
         {
             //Style1
-            System.Console.Write("Style1: \n \n");
+            System.Console.Write("Style1: \r\n \r\n");
             Style1 table1 = new Style1();
             table1.Draw();
-            System.Console.Write("\n");
+            System.Console.Write("\r\n");
             
             //Style2
-            System.Console.Write("Style2: \n \n");
+            System.Console.Write("Style2: \r\n \r\n");
             Style2 table2 = new Style2();
             table2.Draw();
         }
         
     }   
 }
-
